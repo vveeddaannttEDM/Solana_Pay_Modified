@@ -1,0 +1,9 @@
+[programs.devnet]
+solana_pay_contract = "YourProgramPublicKey"
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 1000000"
